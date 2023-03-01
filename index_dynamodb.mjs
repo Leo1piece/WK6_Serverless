@@ -2,7 +2,7 @@
 import { DynamoDBClient, PutItemCommand } from "@aws-sdk/client-dynamodb";
 // Create the DynamoDB service object
 const client = new DynamoDBClient({
-  region: "ap-southeast-2"
+    region: "ap-southeast-2"
 });
 'use strict';
 console.log('Loading hello world function');
